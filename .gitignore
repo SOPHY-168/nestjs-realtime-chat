@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # compiled output
 /dist
 /node_modules
@@ -57,3 +58,20 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+=======
+node_modules/
+**/node_modules/
+
+.env 
+**/.env
+!.env.example 
+
+**/dist/
+**/.nuxt/
+**/output/
+**/.data/
+
+*.log 
+.DS_Store
+
+>>>>>>> 7eee741 (chore(setup): initialize realtime chat development environment)

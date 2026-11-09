@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "backend",
   "version": "0.0.1",
   "description": "",
@@ -58,5 +59,15 @@
     "minimatch": "^11.0.1",
     "tmp": "^0.2.6",
     "undici": "^6.29.1"
+=======
+  "dependencies": {
+    "@nestjs/config": "^12.1.0",
+    "@nestjs/platform-socket.io": "^12.3.3",
+    "@nestjs/websockets": "^12.3.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.15.1",
+    "ioredis": "^6.0.0",
+    "socket.io": "^4.8.4"
+>>>>>>> 7eee741 (chore(setup): initialize realtime chat development environment)
   }
 }
